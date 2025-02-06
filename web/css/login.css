@@ -1,0 +1,19 @@
+#loginContainer, #registrationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+}
+
+#registrationContainer {
+    display: none;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+#myCanvas {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
